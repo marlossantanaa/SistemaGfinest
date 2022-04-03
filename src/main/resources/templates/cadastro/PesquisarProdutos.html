@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="description" content="Formulario de cadastro de produtos."> 
+    <link rel="stylesheet" href="/materialize/css/form-produtos.css">       
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+<script type="text/javascript" src="/materialize/js/form-fornecedores.js"></script>
+    <section class="cadastro-produtos">
+        <div class="pesquisa">
+        <form action="PesquisarProdutos" method="post">
+            <form>  class="container-pesquisa">
+                <legend>Produtos</legend>
+                <label>
+                    <input class="pesq-produtos" type="text" placeholder="Pesquisar por" autofocus required>
+                </label>
+                <i id="lupa" class="fas fa-search"></i>
+                <input  class="btn-pesquisar"  type="submit"value="pesquisar">  
+                <i  id="search" class="fas fa-plus-circle"></i>        
+                <input class="novo-fonr" type="button" value="novo produto" >
+            </form>
+        </form>
+        </div>
+
+        <div class="container-cadastro">
+            <form class="form-cadastro">
+                <legend>cadastro de produtos</legend>
+                <label>
+                    <span>Descrição de Produtos</span>
+                    <input class="description" type="text" maxlength="50" placeholder="maximo 50 caracters" required>
+                </label>
+                <label>
+                    <span>Fabricante</span>
+                    <input class="description" type="text" required>
+                </label>
+            </form>
+        </div>    
+
+        <div class="pesqui">
+                <form action="PesquisarProdutos" method="post">
+
+            <form class="form-pesquisa">       
+                <fieldset class="container-produtos">
+                    <label>
+                        <span>Grupo</span>
+                        <select id="grupo" required>
+                            <option value="0">Selecione</option>
+                            <option value="">Hidraulica</option>
+                            <option value="">Eletrica</option>
+                            <option value="">Ferramentas</option>
+                            <option value="">Acabamentos</option>
+                        </select>
+                    </label>
+                    
+                    <label class="medidas" required>
+                        <span>Unid.Medida</span>
+                        <select id="un-medidas">
+                            <option value="0">Secione</option>
+                            <option class="container-produtos"value="0">BDJ-Bandeja</option>
+                            <option value="0">CX-Caixa</option>
+                            <option value="0">DZ-Duzia</option>
+                            <option value="0">G-Grama</option>
+                            <option value="0">JG-Jogo</option>
+                            <option value="0">KG-Quilograma</option>
+                            <option value="0">L-Litro</option>
+                            <option value="0">M-Metro</option>
+                            <option value="0">M2-Metro Quadrado</option>
+                            <option value="0">M3-Metro Cúbico</option>
+                            <option value="0">MIL-Milheiro</option>
+                            <option value="0">PAR-Par</option>
+                            <option value="0">PC-Peça</option>
+                            <option value="0">PCT-Pacote</option>
+                            <option value="0">SC-Saca/Saco</option>
+                            <option value="0">TON_Tonel. Metro. Líquido</option>
+                            <option value="0">UN-Unidade</option>
+                        </select>                         
+                    </label>
+                
+                    <label class="local-estocado"required>
+                        <span>Localização</span>
+                        <select id="localizacao">
+                            <option value="">Selecione</option>
+                            <option value="">Corredor central/Prateleira 5</option>
+                            <option value="">Corredor 4/Prateleira 7</option>
+                            <option value="">Corredor 2/Prateleira 5</option>
+                        </select>
+                    </label>
+
+                    <label class="-compra">
+                        <span>Preço de Compra</span>
+                            <input  id="preco-compra" type="number" required>             
+                    </label>
+                </fieldset>
+            </form> 
+                </form>
+        </div>
+        <div class="custeio">
+            <form class="form-custo">
+                <fieldset>                    
+                    <label class="porcentagem-custo" unit="%">
+                        <span>Porcentagem Custo</span>
+                        <input type="number" min="0.00" max="120.00">
+                    </label>                    
+                    <label class="porcentagem-lucro" unit="%">
+                        <span>Porcentagem de Lucro</span>
+                        <input type="number" min="0.00" max="120.00">
+                    </label>                    
+                    <label class="preco-venda"unit="%">         
+                        <span>Preço Sugerido</span>
+                        <input type="number" required>
+                    </label>                
+                    <label>
+                        <span>Estoque Minino</span>
+                        <input class="est" type="number" required>
+                    <label>                                    
+                    <div class="saida">
+                        <input class="cancelar" type="reset" value="Cancelar">
+
+                        <input class="salvar" type="submit" value="Salvar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>                
+    </section>
+    <script src="https://kit.fontawesome.com/562a71b37f.js" crossorigin="anonymous"></script> 
+</body>
+</html>

@@ -1,0 +1,318 @@
+
+/* tela de desktop */
+
+.cadastro-produtos {
+  max-width: 70%;
+  width: 100%;
+  float: right;
+  margin: 70px 25px 0px;
+  display: none;
+}
+
+.pesquisa {
+  position: absolute;
+  width: 72.2%;
+  height: 305px;
+  left: 24%;
+  top: 90px;
+  color: #C4C4C4;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  padding-left: 0px;
+}
+
+.pesquisa h2 {
+  color: #001470;
+  margin-left: 17px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.pesq-produtos {
+  width: 74.7%;
+  height: 20px;
+  color: #C4C4C4;
+  margin: 20px -70px 0px 17px;
+  border: 1px solid #F2F2F2;
+  outline: none;
+}
+
+
+.grupo1 span{
+  display: block;
+  color: #001470;
+  margin: 2em 0em 0.4em 17px;
+}
+
+.grupo1 select{
+  border: 1px solid #C4C4C4;
+  color: #C4C4C4;
+  background: white;
+  display: block;
+  width: 15.8125em;
+  outline: none;
+  color: #C4C4C4;
+  margin-left: 17px;
+}
+
+.btn-pesquisar {
+  height: 24px;
+  width: 90px;
+  background: #001470;
+  color: #fff;
+  border: none;
+  margin-right: 15px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.product-action {
+  display: block;
+}
+
+#lupa {
+  position: relative;
+  margin-right: -30px;
+  color: #f2f2f2;
+  font-size: 13px;
+}
+
+.novo-fonr {
+  background: #ffbe00;
+  border: none;
+  height: 24px;
+  width: 130px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  box-sizing: content-box;
+  cursor: pointer;
+  
+}
+
+#search {
+  position: relative;
+  margin-right: -30px;
+  color: #f2f2f2;
+}
+
+.custeio1 fieldset {
+  border: none;
+}
+
+.custeio1 span {
+  display: block; 
+  color: #001470;
+  margin-top: 32px;
+  margin-left: 17px;
+}
+
+.custeio1 label {
+  display: inline-block;
+}
+
+.custeio1 input {
+  width: 16.48em;
+  height: 22px;
+  margin-top: 7px;
+  margin-left: 17px;
+  border: 1px solid #F2F2F2;
+  color: #C4C4C4;
+  outline: none;
+}
+
+.container-cadastro {
+  width: 100%;
+  margin-top: 30px;
+  background: white;
+  
+}
+
+.cadastroProdutos {
+  position: absolute;
+  width: 71%;
+  height: 557px;
+  left: 324px;
+  top: 90px;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #4c4646;
+  padding-left: 20px;
+  display: none;
+  
+}
+
+.form-cadastro h2 {
+    color: #001470;
+    margin-left: 11px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.form-cadastro span {
+  display: block;
+  margin: 23px 11px 7px;
+  color: #4c4646;
+}
+
+.form-cadastro input {
+  margin-left: 11px;
+  width: 95%;
+  height: 20px;
+  border: 1px solid #272525;
+  outline: none;
+  border: 1px solid #F2F2F2;
+  color: #272525;
+}
+
+.pesqui {
+  background: white;
+  padding-top: 30px;
+}
+
+.pesqui fieldset {
+  border: none;
+  width: 100%;
+}
+
+.form-pesquisa label {
+  display: inline-block;
+}
+
+.form-pesquisa select {
+  margin-left: 12px;
+  height: 25px;
+  width: 217px;
+  border: 1px solid #272525;
+  background: #fff;
+  color: #272525;
+  border: 1px solid #F2F2F2;
+  outline: none;
+}
+
+.form-pesquisa span {
+  display: block;
+  margin-left: 12px;
+  color: #4c4646;
+  font-size: 16px;
+}
+
+.form-pesquisa input {
+  margin-left: 12px;
+  height: 20px;
+  width:218px;
+  outline: none;
+  border: 1px solid #F2F2F2;
+}
+
+input::placeholder {
+  color: #C4C4C4;
+}
+
+.custeio {
+  background: white;
+}
+
+.form-custo fieldset {
+  border: none;
+}
+
+.form-custo span {
+  display: block;
+  color: #4c4646;
+  margin: 28px 11px 0px;
+}
+
+.form-custo label {
+  display: inline-block;
+}
+
+.form-custo input {
+  width: 217px;
+  height: 22px;
+  margin-left: 11px;
+  border: 1px solid #F2F2F2;
+  outline: none;
+  color: #272525;
+}
+
+.status {
+  margin-top: -32px;
+}
+
+.status input{
+  color: #272525
+}
+
+
+.saida {
+  float: right;
+  margin: 45px 17px;
+}
+
+.saida input {
+  width: 146px;
+  height: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+.salvar {
+  background-color: #001470;
+  color: #ffffff;
+  width: 146px;
+  height: 28px;
+  float: right;
+  margin-right: 20px;
+  justify-items: right;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  
+}
+
+.cancelar {
+  background-color: #700000;
+  color: #ffffff;
+  width: 146px;
+  height: 28px;
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  display: block;
+}
+
+.custeio1 label {
+  display: inline-block;
+}
+
+.miniLogoTipo {
+  position: absolute;
+  opacity: 50%;
+  top: 94%;
+  left: 92%;
+  transform: translate(-50%,-50%);
+}
+
+.miniLogoTipo img {
+  width: 80px;
+  height: 78.09px;
+}
+
+.custeio1 input {
+  width: 16.48em;
+  height: 22px;
+  margin-top: 7px;
+  margin-left: 17px;
+  border: 1px solid #F2F2F2;
+  outline: none;
+}
